@@ -3,7 +3,7 @@ class DividedBy {
     public void calc(){
         System.out.println("\n\nDivided by 5: ");
 		for (int i=1; i<100; i++) {//For loop represnt the value from 1-100
-			if (i%5==0){ // value of i fully divided by 5
+			if (i%5==0 && i>40){ // value of i fully divided by 5
 				System.out.print(i +", ");//Value of i will get print
 			}			
 		}
